@@ -1,0 +1,132 @@
+
+  ion-textarea {
+    background-color: lightgoldenrodyellow !important;
+  }
+
+  .item-selected {
+    color: #007aff;
+  }
+
+  .app-protect {
+    background-color: transparent !important;
+    opacity: 0.95;
+  }
+
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 3rem white inset;
+    color: black;
+  }
+
+  .holiday-background {
+    background-color: #f4f4f4 !important;
+  }
+
+  .zoom {
+    .item-input .label-md,
+    .item-select .label-md {
+      color: #828BAD;
+    }
+  }
+
+  .app-info, .app-selected {
+    color: #0d356f;
+  }
+  .app-label {
+    color: #828BAD;
+  }
+  .app-form, .form-field, .col-field, .single-input{
+    background-color: white;
+    color: black;
+
+    ion-label {
+      color: #828BAD;
+
+      .app-err {
+        color: #ff3d00;
+      }
+    }
+
+    .item-md.item-block:not(.input-has-focus),
+    .item-md.item-input:not(.input-has-focus),
+    .item-md.item-select:not(.input-has-focus) {
+      border: 0.1rem solid #BEC7E9;
+      border-radius: 0.5rem;
+    }
+
+    .item-md.item-block.input-has-focus,
+    .item-md.item-input.input-has-focus,
+    .item-md.item-select.input-has-focus {
+      border: 0.1rem solid #0d356f;
+      border-radius: 0.5rem;
+    }
+  }
+
+  .toolbar-title,
+  .item-md,
+  .theme-color,
+  .back-button-md,
+  .back-button-icon-md {
+    color: #0d356f;
+  }
+
+  .header-background, .about-background, .theme-background-dft {
+    background-color: white !important;
+  }
+
+  .theme-background {
+    background-color: white; //#f9f9f9 ;
+    color:#0d356f;
+  }
+
+  .selected-row,
+  .selected-row .list-md .item-block .item-inner,
+  .selected-row .item-md.item-block .item-inner {
+    //width: auto;
+    background-color: #1b55af !important;
+    color: white !important;
+    box-shadow: 0.15rem 0.15rem 1.25rem 0.15rem rgba(0, 0, 0, 0.125) !important;
+  }
+
+  .unselected-row,
+  .unselected-row .list-md .item-block .item-inner,
+  .unselected-row .item-md.item-block .item-inner {
+    border: 0.1rem solid transparent;
+    background-color: #f5f5f5;
+    color: #545965;
+  }
+
+  .edit-color {
+    color: #388E3C;
+  }
+
+  .item-input ion-label[stacked], .reg-msg,
+  .item-select ion-label[stacked],
+  .item-input .label-md[stacked],
+  .item-select .label-md[stacked] {
+    color: #828BAD !important;
+  }
+
+  .app-err {
+    color: #ff3d00;
+  }
+
+  .search-input {
+    .item-md.item-input.input-has-focus .item-inner,
+    .text-input-md.input-has-focus .item-inner {
+      border-bottom: 0.1rem solid #343434;
+    }
+  }
+
+  .app-bright {
+    color: black;
+    //font-weight: bold;
+  }
+
+
+  .border-top-bright {
+    border-top: 0.1rem solid black;
+  }
+
+  .border-bottom-bright {
+    border-bottom: 0.1rem solid black;
+  }

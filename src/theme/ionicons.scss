@@ -1,0 +1,166 @@
+@font-face {
+  font-family: 'ionicons';
+  src:  url('../assets/fonts/ionicons.eot?l5tzsf');
+  src:  url('../assets/fonts/ionicons.eot?l5tzsf#iefix') format('embedded-opentype'),
+  url('../assets/fonts/ionicons.woff2?l5tzsf') format('woff2'),
+  url('../assets/fonts/ionicons.ttf?l5tzsf') format('truetype'),
+  url('../assets/fonts/ionicons.woff?l5tzsf') format('woff'),
+  url('../assets/fonts/ionicons.svg?l5tzsf#ionicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ion-"], [class*=" ion-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ionicons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@mixin makeIcon($arg, $val) {
+  .ion-#{$arg}:before,
+  .ion-ios-#{$arg}:before,
+  .ion-ios-#{$arg}-outline:before,
+  .ion-md-#{$arg}:before,
+  .ion-md-#{$arg}-outline:before {
+    content: $val;
+  }
+}
+@include makeIcon(map-marker-alt,"\e95e");
+@include makeIcon(timesheet,"\e94d");
+@include makeIcon(ios-construct,"\e96e");
+@include makeIcon(md-phone-portrait,"\e96c");
+@include makeIcon(md-tv,"\e96d");
+@include makeIcon(vac,"\e96b");
+@include makeIcon(md-glasses,"\e96a");
+@include makeIcon(md-desktop,"\e969");
+@include makeIcon(md-log-out,"\e967");
+@include makeIcon(ios-globe,"\e966");
+@include makeIcon(md-copy,"\e965");
+@include makeIcon(md-menu,"\e964");
+@include makeIcon(edit,"\e963");
+@include makeIcon(weekly,"\e962");
+@include makeIcon(save,"\e95f");
+@include makeIcon(window-list,"\e960");
+@include makeIcon(window-close,"\e961");
+@include makeIcon(window-maximize,"\e95b");
+@include makeIcon(window-minimize,"\e95c");
+@include makeIcon(window-restore,"\e95d");
+@include makeIcon(ios-tags,"\e95a");
+@include makeIcon(md-play-left,"\e959");
+@include makeIcon(revenue,"\e958");
+@include makeIcon(file-excel,"\e918");
+@include makeIcon(risk,"\e957");
+@include makeIcon(file-upload,"\e2c6");
+@include makeIcon(file-download,"\e90c");
+@include makeIcon(meeting,"\e900");
+@include makeIcon(remove,"\e955");
+@include makeIcon(cookie,"\e94e");
+@include makeIcon(privacy,"\e954");
+@include makeIcon(lightbulb,"\e901");
+@include makeIcon(bike,"\e952");
+@include makeIcon(express,"\e951");
+@include makeIcon(bolt,"\e94f");
+@include makeIcon(bishop,"\e941");
+@include makeIcon(king,"\e945");
+@include makeIcon(pawn,"\e94c");
+@include makeIcon(ios-square-outline,"\e902");
+@include makeIcon(ios-checkbox-outline,"\e940");
+@include makeIcon(activity,"\e93e");
+@include makeIcon(cogs,"\e936");
+@include makeIcon(ios-flag,"\e935");
+@include makeIcon(ios-list,"\e933");
+@include makeIcon(ios-remove-circle-outline,"\e913");
+@include makeIcon(md-checkmark-circle,"\e912");
+@include makeIcon(ios-add-circle-outline,"\e932");
+@include makeIcon(ios-more,"\e931");
+@include makeIcon(md-send,"\e930");
+@include makeIcon(ios-chatbubbles,"\e929");
+@include makeIcon(md-send-rtl,"\e92a");
+@include makeIcon(cursor,"\e928");
+@include makeIcon(day,"\e916");
+@include makeIcon(trash,"\e939");
+@include makeIcon(new,"\e926");
+@include makeIcon(rules,"\e925");
+@include makeIcon(ion-ios-alert-outline,"\f103");
+@include makeIcon(work-hours,"\e91f");
+@include makeIcon(work-holiday,"\e923");
+@include makeIcon(smiley,"\e919");
+@include makeIcon(overtime,"\e91c");
+@include makeIcon(sick,"\e922");
+@include makeIcon(ios-close-circle-outline,"\f14d");
+@include makeIcon(company,"\e914");
+@include makeIcon(companies,"\e915");
+@include makeIcon(credit-card,"\e93f");
+@include makeIcon(ios-people,"\e910");
+@include makeIcon(ios-paper-plane-outline,"\e911");
+@include makeIcon(ios-lock-outline,"\e903");
+@include makeIcon(ios-unlock-outline,"\e90f");
+@include makeIcon(save1,"\e161");
+@include makeIcon(ios-people-outline,"\e90e");
+@include makeIcon(convert,"\e040");
+@include makeIcon(less,"\e5d8");
+@include makeIcon(expand,"\e5d9");
+@include makeIcon(ios-arrow-back,"\e91a");
+@include makeIcon(ios-arrow-down,"\e91b");
+@include makeIcon(ios-arrow-dropleft,"\e91d");
+@include makeIcon(ios-arrow-dropright,"\e91e");
+@include makeIcon(ios-arrow-forward,"\e920");
+@include makeIcon(ios-arrow-up,"\e921");
+@include makeIcon(md-arrow-back,"\e937");
+@include makeIcon(md-arrow-forward,"\e93c");
+@include makeIcon(logo-facebook,"\e92e");
+@include makeIcon(ios-help-circle-outline,"\e90d");
+@include makeIcon(ios-calendar-outline,"\e90a");
+@include makeIcon(ios-paper-outline,"\e909");
+@include makeIcon(md-radio-button-off,"\e949");
+@include makeIcon(md-power,"\e907");
+@include makeIcon(brand,"\e906");
+@include makeIcon(comment-alt,"\e917");
+@include makeIcon(file-alt,"\e908");
+@include makeIcon(ios-backspace-outline,"\e904");
+@include makeIcon(ios-contacts-outline,"\e927");
+@include makeIcon(ios-list-box-outline,"\e924");
+@include makeIcon(ios-navigate-outline,"\e905");
+@include makeIcon(ios-settings-outline,"\e953");
+@include makeIcon(ios-stats-outline,"\e92b");
+@include makeIcon(ios-stopwatch-outline,"\e92c");
+@include makeIcon(ios-time-outline,"\e92d");
+@include makeIcon(logo-googleplus,"\e92f");
+@include makeIcon(md-add,"\e934");
+@include makeIcon(md-arrow-dropdown,"\e938");
+@include makeIcon(md-arrow-dropleft,"\e93d");
+@include makeIcon(md-arrow-dropright,"\e93a");
+@include makeIcon(md-arrow-dropup,"\e93b");
+@include makeIcon(md-checkmark,"\e942");
+@include makeIcon(md-create,"\e943");
+@include makeIcon(md-filing,"\e944");
+@include makeIcon(md-more,"\e90b");
+@include makeIcon(md-pause,"\e946");
+@include makeIcon(md-person,"\e947");
+@include makeIcon(md-play-right,"\e948");
+@include makeIcon(md-radio-button-on,"\e94a");
+@include makeIcon(refresh,"\e94b");
+@include makeIcon(search,"\e950");
+@include makeIcon(ios-archive-outline,"\e956");
+@include makeIcon(language,"\e894");
+@include makeIcon(md-share,"\e968");
+@include makeIcon(language1,"\e895");

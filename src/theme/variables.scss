@@ -1,0 +1,8 @@
+//$background-splash:linear-gradient(to left bottom, #c1c3f3 0%, #f07da8 25%,#9b63f8 75%,#488aff 99.99%);
+//$theme-background:linear-gradient(to left, #c1c3f3 0%, #f07da8 25%,#9b63f8 75%,#488aff 99.99%);
+//@import '~handsontable/dist/handsontable.full.css';
+$text-input-md-show-focus-highlight: false !default;
+$text-input-md-show-valid-highlight: $text-input-md-show-focus-highlight !default;
+$text-input-md-show-invalid-highlight: $text-input-md-show-focus-highlight !default;
+$colors: (primary:#0d356f);
+$toast-max-width: 100%;

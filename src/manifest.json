@@ -1,0 +1,66 @@
+{
+  "name": "IMONIT",
+  "short_name": "IMONIT",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/starframe-imonit-283be.appspot.com/o/img%2Ficon36.png?alt=media&token=8e826583-b0b2-4630-a6dd-a4772b3d0f26",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/starframe-imonit-283be.appspot.com/o/img%2Ficon48.png?alt=media&token=95f229a4-6849-463a-a8f0-165071cc1883",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/starframe-imonit-283be.appspot.com/o/img%2Ficon72.png?alt=media&token=e3c8d554-0c3a-4103-8050-f6ed8d570b7f",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/starframe-imonit-283be.appspot.com/o/img%2Ficon96.png?alt=media&token=c014c905-9a1a-4609-8059-44950811bc3f",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/starframe-imonit-283be.appspot.com/o/img%2Ficon144.png?alt=media&token=42bae867-e528-4e7c-8f05-0d2b9500f6f0",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/starframe-imonit-283be.appspot.com/o/img%2Ffavicon.png?alt=media&token=74c44da5-9ded-45ea-98d3-914e1dd55d7d",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/starframe-imonit-283be.appspot.com/o/img%2Ficon512.png?alt=media&token=3beed812-1b90-4a33-afd3-c778483e7c3b",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "permissions": [
+    "storage",
+    "alarms",
+    "background",
+    "geolocation",
+    "notifications",
+    "http://localhost:8100/*",
+    "https://localhost:8100/*",
+    "http://imonitBeacon.io/*",
+    "https://imonitBeacon.io/*",
+    "http://www.imonitBeacon.io/*",
+    "https://www.imonitBeacon.io/*",
+    "http://www.imonit.app/*",
+    "https://www.imonit.app/*",
+    "http://imonit.app/*",
+    "https://imonit.app/*"
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=io.imonit.imonit"
+    }
+  ]
+}
